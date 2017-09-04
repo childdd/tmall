@@ -1,0 +1,14 @@
+@charset 'utf-8';
+.search-content{margin:0 auto;width:1230px;height:130px;}
+.search-content h1>img{display:block;margin-left:-20px;width:240px;height:130px;}
+
+.search{margin:38px 0 0 98px;font-size:14px;font-family:'微软雅黑';}
+.search-top .s-f{position:relative;border:2px solid #FF0036; }
+.search-top .input{padding:0 0 0 8px;width:483px;line-height:36px;height:36px;border:none;outline:none;font-size:14px;}
+.search-top label{position:absolute;left:8px;top:0px;z-index:1;line-height:36px;width:483px;cursor:text;color:#black;user-select:none;}
+.search-top .input:focus + label{color:#ccc;z-index:-1;}
+.search-top .btn{width:132px;height:36px;border:none;outline:none;background-color:#FF0036;font-size:18px;font-weight:700;color:white;cursor:pointer;}
+
+.search-btm{margin-left:-12px;color:#999;}
+.search-btm>ul>li{float:left;padding:0 12px;margin-top:7px;line-height:1.1;border-right:1px solid #ccc;}
+.search-btm>ul .l-9{border-right:none;color:#FF0036;}
